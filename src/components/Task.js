@@ -10,7 +10,7 @@ const getLocalItems = () => {
     }
 };
 
-function Trial() {
+function Task() {
     const [input, setInput] = useState({
         tname: "",
         tdis: "",
@@ -197,7 +197,7 @@ function Trial() {
     );
 }
 
-export default Trial;
+export default Task;
 
 
 
