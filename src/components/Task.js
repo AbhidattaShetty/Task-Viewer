@@ -153,7 +153,7 @@ function Task() {
                                             {items.map((item, index) => {
                                                 return (
                                                     <div key={index} className="tasks">
-                                                        <div className="row">
+                                                        <div className="row text-center">
                                                             <div className="col-md-6">
                                                                 <p>{item.tname}</p> <p>{item.tdis}</p>
                                                             </div>
@@ -173,7 +173,7 @@ function Task() {
                                             {upcoming.map((item, index) => {
                                                 return (
                                                     <div key={index} className="tasks">
-                                                        <div className="row">
+                                                        <div className="row text-center">
                                                             <div className="col-md-6">
                                                                 <p>{item.tname}</p> <p>{item.tdis}</p>
                                                             </div>
