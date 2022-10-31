@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.tasks {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+}
+
+.date {
+  text-align: right;
+  margin-top: 0;
+}
+
+.anyClass {
+  height:85vh;
+  overflow-y: scroll;
+}
